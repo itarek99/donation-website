@@ -35,16 +35,16 @@ body {
 }
 
 .header__content {
-  width: 65%;
+  width: 70%;
   text-align: center;
 }
 
-.header__heading {
+.header__title {
   font-size: 65px;
 }
-.header__paragraph {
+.header__sub-title {
   line-height: 1.5;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -57,15 +57,15 @@ body {
   padding: 10px 20px;
 }
 
-.donate {
+.section {
   text-align: center;
-  padding: 60px 60px;
+  padding: 60px 0;
 }
-.donate__heading {
+.section__heading {
   font-size: 42px;
 }
 
-.donate__paragraph {
+.section__text {
   color: #707070;
   width: 50%;
   margin: 8px auto;
@@ -105,31 +105,26 @@ body {
   border-bottom: 1px solid #707070;
 }
 
-.plan {
-  text-align: center;
-  padding: 60px 60px;
-}
-
-.plan__heading {
-  font-size: 42px;
-}
-
-.plan__paragraph {
-  color: #707070;
-  width: 50%;
-  margin: 8px auto;
-}
-
 .plan__items {
   margin-top: 48px;
   display: flex;
+  justify-content: space-between;
 }
 
 .plan__item {
-  background-color: #edf5f6;
   padding: 32px;
   text-align: left;
-  width: 30%;
+  width: 31%;
+}
+
+.plan__item--1 {
+  background-color: #edf5f6;
+}
+.plan__item--2 {
+  background-color: #ffeeee;
+}
+.plan__item--3 {
+  background-color: #fff4d6;
 }
 
 .plan__img {
@@ -138,4 +133,58 @@ body {
 .plan__title {
   font-size: 24px;
   margin-bottom: 16px;
+}
+
+.gallery__photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery__photo {
+  width: 32%;
+  margin-bottom: 24px;
+}
+
+.newsletter__form {
+  background-color: #fff4d6;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter__input {
+  padding: 16px;
+  background-color: #d9d9d9;
+  border: none;
+  outline: none;
+  width: 50%;
+}
+
+.newsletter__button {
+  font-family: inherit;
+  color: #fff;
+  background-color: #ff5959;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+}
+
+.footer {
+  background-color: #0b0d17;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer__content {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff5959;
 }
